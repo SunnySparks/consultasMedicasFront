@@ -1,9 +1,12 @@
 import React from 'react'
+import addPatient from './Patient/addPatient';
 
-const index = () => {
+const Layout = () => {
   return (
-    <div id="index">index</div>
+    <div id="index">index addPatient
+    <addPatient />
+    </div>
   )
 }
 
-export default index
+export default Layout
