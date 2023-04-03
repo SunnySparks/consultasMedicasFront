@@ -1,10 +1,13 @@
 import React from 'react'
-import addPatient from './Patient/addPatient';
+import AddPatient from './patient/AddPatient';
+import NewAppointment from './appointment/NewAppointment';
 
 const Layout = () => {
   return (
     <div id="index">index addPatient
-    <addPatient />
+    <AddPatient />
+    add appointment
+    <NewAppointment />
     </div>
   )
 }
