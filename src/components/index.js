@@ -4,10 +4,9 @@ import NewAppointment from './appointment/NewAppointment';
 
 const Layout = () => {
   return (
-    <div id="index">index addPatient
-    <AddPatient />
-    add appointment
-    <NewAppointment />
+    <div id="index">
+      <AddPatient />
+      <NewAppointment />
     </div>
   )
 }

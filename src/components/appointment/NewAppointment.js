@@ -1,9 +1,11 @@
-import React from 'react'
+import React from 'react';
+import '../../styles/global.scss';
 
 const NewAppointment = () => {
   return (
-    <div id="addAppointmentCont">NewAppointment
-        <div class="formCont">
+    <div className="webfont outerForm">
+        <h2>Crear Cita</h2>
+        <div className="innerForm">
             <form>
             <label>Elegir Paciente</label>
                 <select name ="paciente">
@@ -17,28 +19,11 @@ const NewAppointment = () => {
                 <input type="text" value="vitals"></input>
                 <label>Notas</label>
                 <input type="text" value="notas" className="notesCont"></input>
-                <input type="submit" value="Añadir" id="submit"></input>
+                <input type="submit" value="Añadir" className="submit"></input>
             </form>
         </div>
     </div>
   )
 }
-
-<div id="addPatientCont">
-        Patient Add
-        <div class="formCont">
-            <form>
-                <label>Nombre</label>
-                <input type="text" value="nombre" className="nombreCont"></input>
-                <label>Apellido</label>
-                <input type="text" value="apellido" className="nombreCont"></input>
-                <label>Correo</label>
-                <input type="text" value="correo" className="nombreCont"></input>
-                <label>Notas</label>
-                <input type="text" value="notas" className="notesCont"></input>
-                <input type="submit" value="Añadir" id="submit"></input>
-            </form>
-        </div>
-</div>
 
 export default NewAppointment
